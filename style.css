@@ -226,6 +226,7 @@ nav .portfolioicon-burger .line{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 5%;
+    width: 75%;
 }
 .blog-left a{
     font-weight: 500;
@@ -269,7 +270,7 @@ nav .portfolioicon-burger .line{
     }
     .blog-left p{
         font-size: 14px;
-        width: 100%;
+        width: 90%;
     }
     .blog-right{
         margin-top: 30px;
