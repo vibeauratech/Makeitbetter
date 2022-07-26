@@ -262,15 +262,14 @@ nav .portfolioicon-burger .line{
 
 
 @media screen and (max-width:768px){
-    .blog-content{
+
+    .blog-left h3{
+        font-size: 24px;
         margin-top: 15%;
     }
-    .blog-left h3{
-        font-size: 22px;
-    }
     .blog-left p{
-        font-size: 12px;
-        width: 85%;
+        font-size: 14px;
+        width: 100%;
     }
     .blog-right{
         margin-top: 30px;
@@ -280,7 +279,7 @@ nav .portfolioicon-burger .line{
       height: 15rem;
     }
     .new-btn{
-        padding: 12px 32px;
+        padding: 12px 26px;
         
     }
     .blog-left .exp-con{
