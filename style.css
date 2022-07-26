@@ -331,6 +331,7 @@ nav .portfolioicon-burger .line{
     align-items: center;
     justify-content: center;
     padding: 5% 0;
+    padding-bottom: 0;
     margin: 0 auto;
     
 }
@@ -468,7 +469,9 @@ nav .portfolioicon-burger .line{
     }
 }
 
-
+#second{
+    margin-bottom: 5%;
+}
     
 
 
