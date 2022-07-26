@@ -298,6 +298,7 @@ nav .portfolioicon-burger .line{
     }
 }
 
+
 .prog-head{
     margin-top: 10%;
 }
@@ -309,7 +310,7 @@ nav .portfolioicon-burger .line{
 
 .prog-head p{
     width: 40%;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.4;
 }
 @media screen and (max-width:768px){
