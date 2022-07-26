@@ -298,9 +298,32 @@ nav .portfolioicon-burger .line{
     }
 }
 
+.brief{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12%;
+}
+.brief h2{
+    font-size: 28px;
+}
+.brief p{
+    font-size: 16px;
+    line-height: 1.4;
+    width: 70%;
+    margin: 0 auto;
+}
+@media screen and (max-width:768px){
+    .brief h2{
+        font-size: 22px;
+    }
+    .brief p{
+        font-size: 14px;
+        width: 100%;
+    }
+}
 
 .prog-head{
-    margin-top: 10%;
+    margin-top: 12%;
 }
 
 .prog-head h2{
