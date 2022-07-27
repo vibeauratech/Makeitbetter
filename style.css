@@ -313,6 +313,9 @@ nav .portfolioicon-burger .line{
     margin: 0 auto;
 }
 @media screen and (max-width:768px){
+    .brief{
+        margin-top: 25%;
+    }
     .brief h2{
         font-size: 22px;
     }
@@ -337,6 +340,9 @@ nav .portfolioicon-burger .line{
     line-height: 1.4;
 }
 @media screen and (max-width:768px){
+    .prog-head{
+        margin-top: 25%;
+    }
     .prog-head h2{
         font-size: 22px;
     }
