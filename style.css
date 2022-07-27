@@ -502,5 +502,66 @@ nav .portfolioicon-burger .line{
     margin-bottom: 5%;
 }
     
+.analytics{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.analytics-left{
+    flex-basis: 47%;
+}
+.analytics-left img{
+    width: 100%;
+}
+.analytics-right{
+    flex-basis: 47%;
+}
+.analytics-head{
+    margin-bottom: 8%;
+}.analytics-head h2{
+    margin-bottom: 2%;
+}
+
+.right-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    padding-top: 6%;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D9D9D9;
+}
+.right-con h3{
+    font-size: 18px;
+}
+.right-con p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px){
+    .analytics{
+        flex-direction: column;
+        margin-top: 25%;
+    }
+    .analytics-head{
+        margin-top: 12%;
+    }
+    .analytics-left, .analytics-right{
+        flex-basis: 100%;
+    }
+    .right-con h3{
+        font-size: 15px;
+    }
+    .right-con p{
+        font-size: 14px;
+    }
+}
+
+
+
 
 
