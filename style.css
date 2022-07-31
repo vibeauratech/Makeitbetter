@@ -562,16 +562,17 @@ nav .portfolioicon-burger .line{
 }
 
 .founders{
-    width: 100%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
     display: flex;
     justify-content: space-between;
 }
 
 .founders-left{
-    flex-basis: 45%;
-    margin-top: 10%;
+    flex-basis: 70%;
+    margin-top: 15%;
 }
 .founders-left p{
     width: 85%;
@@ -595,28 +596,116 @@ nav .portfolioicon-burger .line{
 }
 
 .founders-right{
-    flex-basis: 45%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+    flex-basis: 25%;
 }
 
-.founders-right .left-img img{
-    width: 100%;    
+
+.slider{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 78vh;
 }
+
+.slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.slide.active{
+    opacity: 1;
+}
+
+.slide-con img{
+    width: 100%;
+}
+#destiny img{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+button#next{
+    position: absolute;
+    margin-top: 70%;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color:  #000;
+    border: 2px solid #000;
+    background: transparent;
+    cursor: pointer;
+}
+button#next:hover{
+    color: #fff;
+    background: #000;
+}
+
+button#prev{
+    position: absolute;
+    margin-top: 70%;
+    left:80%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: #000;
+    border: 2px solid #000;
+    background: transparent;
+    cursor: pointer;
+}
+button#prev:hover{
+    color: #fff;
+    background: #000;
+}
+
+
 
 @media screen and (max-width:768px){
     .founders{
         flex-direction: column;
     }
-    .founders-left p{
-        width: 100%;
+    .founders-left{
+        flex-basis: 100%;
     }
-    .founders-right .left-img img{
-       margin-top: 10%;    
+
+   
+    .founders-right{
+        flex-basis: 100%;
+    }
+    .slider{
+        height: 50vh;
+    }
+    .slide-con p{
+        font-size: 14px;
+    }
+    .slide-con h2{
+        font-size: 18px;
+    }
+    button#prev{
+        left: 60%;
     }
 
 }
+
+
+
+
+
+
+
 
 
 
