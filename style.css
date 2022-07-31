@@ -684,9 +684,11 @@ button#prev:hover{
    
     .founders-right{
         flex-basis: 100%;
+        
     }
     .slider{
         height: 50vh;
+        margin-top: 15%;
     }
     .slide-con p{
         font-size: 14px;
