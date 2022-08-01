@@ -170,10 +170,10 @@
 
     <div class="row">
         <div class="analytics">
-            <div class="analytics-left">
+            <div class="analytics-left" data-aos="slide-right">
                 <img src="pexels-roman-odintsov-11025019.jpg">
             </div>
-            <div class="analytics-right">
+            <div class="analytics-right" data-aos="slide-left">
                 <div class="analytics-head">
                     <h2>Project Analytics</h2>
                     <p> Transparency and accountability are core values Makeitbetter operate with.
@@ -197,7 +197,7 @@
     </div>
 
    <div class="founders">
-        <div class="founders-left">
+        <div class="founders-left" data-aos="slide-right">
             <h2>Meet Our Members</h2>
             <p> This is our in-house team of executives. You too can be a part of this project
                 as a team player.
@@ -205,12 +205,12 @@
             </p>
             <a href="">Join The Team </a>  
             
-            <div class="direction">
+            <div class="direction" data-aos="slide-left">
                 <button id="prev"><i class="fa-solid fa-less-than" id="left-icon"></i></button>                
                 <button id="next"><i class="fa-solid fa-greater-than"id="right-icon"></i></button>                  
                </div>    
         </div> 
-        <div class="founders right">
+        <div class="founders right" data-aos="slide-left">
             <div class="slider">
                 <div class="slide active">
                     <div class="slide-con">
@@ -287,7 +287,10 @@
 
  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+        duration: 3000,
+        once: true,
+    });
   </script>
  <script src="script.js"></script>
 
