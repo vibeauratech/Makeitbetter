@@ -716,9 +716,33 @@ button#prev:hover{
     padding: 5%;
     border-radius: 10px;
 }
+
+.reach-left h2{
+    font-size: 22px;
+    margin-bottom: 3%;
+}
+.reach-left p{
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+
+.reach-left a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.reach-left a:hover{
+    font-size: 18px;
+  font-weight: 600;
+}
+
 .reach-left img{
     width: 100%;
-    height: 16.0rem;
+    height: 14rem;
+    margin-top: 6%;
+    padding-bottom: 0;
     object-fit: cover;
 }
 
@@ -734,6 +758,14 @@ button#prev:hover{
     color: #fff;
     background: #726506;
     border-radius: 10px
+}
+.up .space h2{
+    font-size: 22px;
+    margin-bottom: 3%;
+}
+.up .space  p{
+    font-size: 16px;
+    margin-bottom: 3%;
 }
 .up img{
     width: 100%;
@@ -753,7 +785,15 @@ button#prev:hover{
     padding: 5%;
     color: #fff;
     border-radius: 10px;
-    background: #E1B7DD;
+    background: #000;
+}
+.down .new-space h2{
+    font-size: 22px;
+    margin-bottom: 3%;
+}
+.down .new-space  p{
+    font-size: 16px;
+    margin-bottom: 3%;
 }
 
 @media screen and (max-width:768px){
@@ -763,15 +803,35 @@ button#prev:hover{
     }
     .reach-left{
         flex-basis: 100%;
-        margin-bottom: 8%;
+        margin-bottom: 15%;
     }
     .up{
         flex-direction: column;
-        margin-bottom: 8%;
+        margin-bottom: 15%;
     }
     .down{
         flex-direction: column;
-        margin-bottom: 8%;
+        margin-bottom: 15%;
+    }
+    .reach-left h2{
+        font-size: 18px;
+    }
+    .reach-left p{
+        font-size: 14px;
+    }  
+    .up .space h2{
+        font-size: 18px;
+        
+    }
+    .up .space  p{
+        font-size: 14px;        
+    } 
+    .down .new-space h2{
+        font-size: 18px;
+        
+    }
+    .down .new-space  p{
+        font-size: 14px;
     }
 }
 
