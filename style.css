@@ -594,6 +594,47 @@ nav .portfolioicon-burger .line{
     font-weight: 700;
     border-bottom: 3px solid #000;
 }
+.direction{
+    display: flex; 
+    margin-top: 5%;  
+}
+
+button#next{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color:  #000;
+    border: 2px solid #000;
+    background: transparent;
+    cursor: pointer;
+}
+button#next:hover{
+    color: #fff;
+    background: #000;
+}
+
+button#prev{
+    left:80%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: #000;
+    border: 2px solid #000;
+    background: transparent;
+    cursor: pointer;
+}
+button#prev:hover{
+    color: #fff;
+    background: #000;
+}
+
+
 
 .founders-right{
     flex-basis: 25%;
@@ -625,52 +666,6 @@ nav .portfolioicon-burger .line{
 .slide-con img{
     width: 100%;
 }
-#destiny img{
-    width: 100%;
-    height: 25rem;
-    object-fit: cover;
-}
-
-button#next{
-    position: absolute;
-    margin-top: 32%;
-    right: 8%;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 14px;
-    color:  #000;
-    border: 2px solid #000;
-    background: transparent;
-    cursor: pointer;
-}
-button#next:hover{
-    color: #fff;
-    background: #000;
-}
-
-button#prev{
-    position: absolute;
-    margin-top: 32%;
-    left:80%;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 15px;
-    color: #000;
-    border: 2px solid #000;
-    background: transparent;
-    cursor: pointer;
-}
-button#prev:hover{
-    color: #fff;
-    background: #000;
-}
-
 
 
 @media screen and (max-width:768px){
@@ -687,7 +682,7 @@ button#prev:hover{
         
     }
     .slider{
-        height: 44vh;
+        height: 48vh;
         margin-top: 15%;
     }
     .slide-con p{
@@ -697,15 +692,7 @@ button#prev:hover{
     .slide-con h2{
         font-size: 18px;
     }
-    button#next{
-        margin-top: -5%;
-        right: 13%;
-    }
 
-    button#prev{
-        left: 60%;
-        margin-top: -5%;
-    }
 
 }
 
