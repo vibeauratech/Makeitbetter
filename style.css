@@ -811,7 +811,7 @@ button#prev:hover{
     }
     .down{
         flex-direction: column;
-        margin-bottom: 15%;
+        margin-bottom: 5%;
     }
     .reach-left h2{
         font-size: 18px;
