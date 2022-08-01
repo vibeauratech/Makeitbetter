@@ -7,10 +7,7 @@
     <title>Makeitbetter</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    
-    
-
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />   
 </head>    
 <body>
     
@@ -37,7 +34,7 @@
     <div class="row">
         <div class="blog-content">
             <div class="new-row">
-                <div class="blog-left">
+                <div class="blog-left"  data-aos="slide-right">
                     <h3>Creating an ideal society <br> for the next generation.   </h3>
                     <p>Reforming  our social institution into a better
                         place to raise healthy minds. Be a part of this project today.
@@ -59,14 +56,14 @@
                     </div>
 
                 </div>    
-                <div class="blog-right">
+                <div class="blog-right"  data-aos="slide-left">
                     <img src="fun-3d-illustration-backpacker-with-vr-helmet.jpg">             
                 </div>
             </div>
         </div> 
     </div>
 
-    <div class="row">
+    <div class="row"  data-aos="zoom-out" >
         <div class="brief">
             <h2>What we are about</h2>
             <p> Makeitbetter is a project born out of love & concern for the not-so priviledged 
@@ -76,7 +73,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row"  data-aos="slide-right">
         <div class="prog-head">
             <h2>Programmes</h2>
             <p> With over 10+ programmes in the works, we hope to reach out to
@@ -88,7 +85,7 @@
     </div>
 
     <div class="row">
-        <div class="pro-con">
+        <div class="pro-con" data-aos="slide-down">
             <div class="pro-box">
                 <div class="pro-left">
                     <i class="fa-solid fa-globe"></i>
@@ -110,7 +107,7 @@
     </div>
 
     <div class="row">
-        <div class="pro-con" id="second">
+        <div class="pro-con" id="second" data-aos="slide-up">
             <div class="pro-box">
                 <div class="pro-left">
                     <i class="fa-solid fa-globe"></i>
@@ -133,7 +130,7 @@
 
     <div class="row">
         <div class="reach">
-            <div class="reach-left">
+            <div class="reach-left"  data-aos="slide-right">
                 <h2>Outreach</h2>
                 <p> Creating awareness in communities close to you. Be a part of this
                     project by sharing links on social media platforms.
@@ -142,7 +139,7 @@
                 <img src="r.jpg" alt="">
 
             </div>
-            <div class="reach-right">
+            <div class="reach-right"  data-aos="slide-left">
                 <div class="up">
                     <div class="space">
                         <h2>Live, Love and Learn</h2>
@@ -162,7 +159,7 @@
                     <div  class="new-space" >
                         <h2>Teach.Groom .Raise</h2>
                       <p>
-                        Building knowledge with systematic teaching and intentionally establishing a mind frame
+                        Build knowledge with systematic teaching and intentionally establishing a mind frame
                         of what is right and what is wrong.
                        </p>
                     </div>
@@ -288,8 +285,11 @@
  </div>
     
 
- 
-<script src="script.js"></script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+ <script src="script.js"></script>
 
 </body>  
 </html>
