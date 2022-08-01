@@ -831,6 +831,167 @@ button#prev:hover{
 
 
 
+footer{
+    width: 100%;
+    bottom: 0;
+    background: transparent;
+    color: #000;
+    padding: 100px 0 0px;
+    font-size: 13px ;
+    line-height: 20px;
+    margin-top: 50px;
+}
+
+.footer-row{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col-logo{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.footer-logo{
+    width: 80px;
+    font-size: 18px;
+    color: #000;
+       
+}
+
+.col-logo p{
+    margin-top: 30px;
+    
+}
+
+.col{
+   
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 35px;
+    position: relative;
+    color: #000;
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+.footer-ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footer-ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    margin-bottom: 50px;    
+}
+
+form i{
+    font-size: 18px;
+    margin-right: 12.5px;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    color: #000;
+    border: 0;
+    outline: none;
+
+}
+
+form button{
+    background: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.social-icons i{
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    border: 2px solid #000;
+    background: transparent;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #ccc;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0; 
+    overflow: hidden;  
+}
+
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: rgb(1, 36, 36);
+    position: absolute;
+    border-radius: 3px;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+    
+}
+
+@keyframes moving{
+    0%{
+        left: -20x;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    footer{
+        bottom: unset;
+    }
+
+    .col-logo{
+        flex-basis: 100%;
+        
+    }
+    .col{
+         flex-basis: 100%;
+    }
+    
+}
 
 
 
